@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 # we had a much more automated and intelligent approach to reducing the log, but
 # could not come up with a reasonable way to differentiate between a modr/m byte
 # and an opcode byte.  e.g. if the instruction is xxyy..., and changing xx or yy

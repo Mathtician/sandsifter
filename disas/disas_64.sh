@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo -ne `echo $1 | sed 's/\(..\)/\\\\x\1/g' ` > temp.bin
 
@@ -15,7 +15,7 @@ objdump -D -b binary -mi386 -Mx86-64 temp.bin
 echo
 echo "=== capstone ==="
 echo
-python capstone_64.py $1
+uv run python capstone_64.py $1
 
 rm temp.bin
 

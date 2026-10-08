@@ -1,4 +1,21 @@
 injector
-injector.o
-data/
+*.o
 *.pyc
+__pycache__/
+.venv/
+data/
+
+# reference manuals: large and copyrighted, download from Intel/AMD
+*.pdf
+analysis/sdm.txt
+
+# compiled analysis tools
+analysis/tools/cdis
+analysis/tools/jcc
+analysis/tools/probe
+analysis/tools/sldtdemo2
+analysis/tools/step
+analysis/tools/umip
+analysis/tools/umip2
+analysis/tools/vexsem
+analysis/tools/x87sem2

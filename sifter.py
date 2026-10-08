@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 # instruction injector frontend
 
 #
@@ -192,7 +190,10 @@ def disas_objdump(b):
 	return (mnemonic, op_str, size)
 
 def cstr2py(s):
-	return ''.join([chr(x) for x in s])
+	# the input is a ctypes c_ubyte array; return the raw bytes unchanged.
+	# (this used to return ''.join(chr(x) ...) which callers then .encode()d -
+	#  UTF-8-expanding every byte >= 0x80 and corrupting logged instructions)
+	return bytes(s)
 
 # targeting python 2.6 support
 def int_to_comma(x):
@@ -210,7 +211,7 @@ def result_string(insn, result):
 	s = "%30s %2d %2d %2d %2d (%s)\n" % (
 	        hexlify(insn).decode(), result.valid,
 	        result.length, result.signum,
-	        result.sicode, hexlify(cstr2py(result.raw_insn).encode()).decode())
+	        result.sicode, hexlify(cstr2py(result.raw_insn)).decode())
 	return s
 
 class Injector:
@@ -309,7 +310,7 @@ class Poll:
 	                if self.search_ill and self.T.r.disas_known and self.T.r.signum == self.SIGILL:
 	                    error = True
 	            if error:
-	                insn = cstr2py(self.T.r.raw_insn).encode()[:self.T.r.length]
+	                insn = cstr2py(self.T.r.raw_insn)[:self.T.r.length]
 	                r = copy.deepcopy(self.T.r)
 	                self.T.al.appendleft(r)
 	                if insn not in self.T.ad:
@@ -481,7 +482,7 @@ class Gui:
 	        self.vaddstr(self.stdscr, left - 3, top + top_bracket_middle + 5, "sifter", self.gray(.2))
 
 	        # refresh instruction log
-	        synth_insn = cstr2py(self.T.r.raw_insn).encode()
+	        synth_insn = cstr2py(self.T.r.raw_insn)
 	        mnemonic, op_str, size = self.disas(synth_insn)
 	        self.T.il.append(
 	                (
@@ -609,7 +610,7 @@ class Gui:
 	            try:
 	                for (i, r) in enumerate(self.T.al):
 	                    y = top_bracket_height + 5 + i
-	                    insn_hex = hexlify(cstr2py(r.raw_insn).encode()).decode()
+	                    insn_hex = hexlify(cstr2py(r.raw_insn)).decode()
 
 	                    # unexplainable hack to remove some of the unexplainable
 	                    # flicker on my console.  a bug in ncurses?  doesn't
@@ -668,7 +669,7 @@ class Gui:
 
 	        self.checkkey()
 
-	        synth_insn = cstr2py(self.T.r.raw_insn).encode()
+	        synth_insn = cstr2py(self.T.r.raw_insn)
 
 	        if synth_insn and not self.ts.pause:
 	            self.draw()
@@ -735,7 +736,7 @@ def cleanup(gui, poll, injector, ts, tests, command_line, args):
 
 	if args.save:
 	    with open(LAST, "w") as f:
-	        f.write(hexlify(cstr2py(tests.r.raw_insn).encode()).decode())
+	        f.write(hexlify(cstr2py(tests.r.raw_insn)).decode())
 
 	sys.exit(0)
 

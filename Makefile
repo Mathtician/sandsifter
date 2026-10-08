@@ -34,8 +34,14 @@ all: injector
 injector: injector.o
 	$(CC) $(CFLAGS) $< -O0 -Wall -lcapstone -o $@ -pthread -no-pie
 
+# -O0 is required: inject() depends on -O0 code generation for its
+# register-context-save/restore trick (the resume label).  some toolchains
+# (e.g. the nixpkgs gcc wrapper's fortify hardening) inject -O2 by default,
+# which silently breaks injection.
+# -fno-pie is required: inject() loads a fixed address into %rsp via an "i"
+# (immediate) asm constraint, which is unsatisfiable for PIE objects.
 %.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@ -Wall
+	$(CC) $(CFLAGS) -O0 -fno-pie -c $< -o $@ -Wall
 
 clean:
 	rm *.o injector
