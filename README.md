@@ -1,3 +1,72 @@
+## About this fork
+
+This is a fork of [laura240406/sandsifter](https://github.com/laura240406/sandsifter)
+(itself a Python 3 update of [xoreaxeaxeax/sandsifter](https://github.com/xoreaxeaxeax/sandsifter))
+with a working Python 3 port and a full analysis of one scan of an
+**AMD Ryzen 5 7640U (Zen 4, "Phoenix")**.
+
+Changes to the tool:
+
+- **Fixed a logging bug that corrupted most results.** `cstr2py()` built a
+  `str` and callers `.encode()`d it as UTF-8, so every instruction byte ≥ 0x80
+  was logged as two bytes (and truncated to the wrong length). It now returns
+  the raw bytes.
+- The injector must be built with `-O0 -fno-pie` (the injection trick depends on
+  `-O0` code generation and on a fixed-address immediate); the Makefile now
+  forces both, since some toolchains (e.g. nixpkgs' hardened gcc) default to
+  `-O2`/PIE and silently break injection.
+- A Nix flake dev shell (gcc, capstone, objdump, ndisasm, uv, ...) and a `uv`
+  project for the Python side.
+
+To build and run:
+
+```
+nix develop
+make
+sudo uv run python sifter.py --unk --dis --len --sync --tick -- -P1 -t
+uv run python summarize.py data/log
+```
+
+### Findings on Zen 4
+
+822,308,128 instructions were tested in about 6h20m (`-P1` tunnel mode),
+producing 19,301,762 anomalies. Every one of them is accounted for by about ten
+root causes, each repeated under the ~22 redundant segment/REX/66 prefixes the
+CPU ignores. The full write-up, with hardware-verification programs, is in
+[`analysis/README.md`](analysis/README.md). In brief:
+
+- **AMD decodes bare `0F 78` with two phantom immediate bytes before raising
+  #UD** (65.7% of the log). The length comes from the SSE4a `EXTRQ` path, so
+  near a page boundary you get #PF instead of #UD, which differs from Intel.
+- **`VEX.W0` VPERMQ (`c4 03 7d 00 /r ib`) executes as VPERMQ** although the
+  spec requires W1 (AMD ignores VEX.W), so this code runs on AMD and #UDs on Intel.
+- **`66 0F 8x` (Jcc rel16) is live in 64-bit mode and truncates RIP to 16 bits.**
+  Capstone mis-decodes it as a 7-byte rel32 jump.
+- **SGDT/SIDT/SLDT/STR/SMSW "length anomalies" come from Linux UMIP emulation**,
+  which defers the single-step #DB by one instruction. As a result, `stepi` in gdb (or
+  any TF-based tracer) silently skips the following instruction.
+- Undocumented x87 alias opcodes (`dc d0+i`, `dd c8+i`, `de d0+i`, `df c8+i`)
+  are confirmed alive on Zen 4. Capstone and objdump both reject them.
+- Capstone 5.0.9 coverage gaps, none of them CPU bugs: reserved `0F 0D` prefetch
+  hints, the whole `0F 18–1F` hint-NOP space (MPX/CLDEMOTE slots), and fences
+  with r/m ≠ 0 (which the SDM explicitly allows).
+- Negative results: no SIGSEGV/SIGFPE/SIGBUS anomalies, XOP is gone, and
+  invalid EVEX #UDs as expected.
+
+[`analysis/first-run/`](analysis/first-run/) holds the superseded write-up of
+the first scan, whose log was mangled by the bug fixed above.
+
+### Not yet done
+
+- Report the Capstone bugs upstream (Jcc rel16 length, fence aliases,
+  hint-NOP and prefetch reserved forms, x87 aliases).
+- Compare with an Intel CPU and with a run under a hypervisor (KVM guest).
+- Explore the EVEX (`62`) space, along with F2/F3-prefixed and bare VEX space, which this
+  tunnel-mode scan barely visited. Also sweep for VEX.W leniency
+  and rerun with `--ill` and with `clearcpuid=umip`.
+
+---
+
 ## s a n d s i f t e r 
 : the x86 processor fuzzer
 
@@ -16,7 +85,7 @@ enable users to check their own systems for hidden instructions and bugs.
 To run a basic audit against your processor:
 
 ```
-sudo ./sifter.py --unk --dis --len --sync --tick -- -P1 -t
+sudo uv run python sifter.py --unk --dis --len --sync --tick -- -P1 -t
 ```
 
 ![demo_sandsifter](references/sandsifter.gif)
@@ -29,7 +98,7 @@ The search will take from a few hours to a few days, depending on the speed of
 and complexity of your processor.  When it is complete, summarize the results:
 
 ```
-./summarize.py data/log
+uv run python summarize.py data/log
 ```
 
 ![demo_summarizer](references/summarizer.png)

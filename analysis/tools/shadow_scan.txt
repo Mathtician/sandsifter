@@ -1,0 +1,766 @@
+1b 00 insn=0000 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 01 insn=0100 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 02 insn=0200 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 03 insn=0300 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 04 insn=0400 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 05 insn=0500 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b 06 insn=0600 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 07 insn=0700 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 08 insn=0800 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 09 insn=0900 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 0a insn=0a00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 0b insn=0b00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 0c insn=0c00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 0d insn=0d00 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b 0e insn=0e00 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 0f insn=0f00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b 10 insn=1000 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 11 insn=1100 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 12 insn=1200 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 13 insn=1300 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 14 insn=1400 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 15 insn=1500 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b 16 insn=1600 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 17 insn=1700 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 18 insn=1800 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 19 insn=1900 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 1a insn=1a00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 1b insn=1b00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 1c insn=1c00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 1d insn=1d00 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b 1e insn=1e00 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 1f insn=1f00 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 20 insn=2000 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 21 insn=2100 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 22 insn=2200 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 23 insn=2300 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 24 insn=2400 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 25 insn=2500 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b 26 insn=2600 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 27 insn=2700 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 28 insn=2800 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 29 insn=2900 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 2a insn=2a00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 2b insn=2b00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 2c insn=2c00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 2d insn=2d00 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b 2e insn=2e00 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 2f insn=2f00 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 30 insn=3000 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 31 insn=3100 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 32 insn=3200 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 33 insn=3300 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 34 insn=3400 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 35 insn=3500 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b 36 insn=3600 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 37 insn=3700 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 38 insn=3800 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 39 insn=3900 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 3a insn=3a00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 3b insn=3b00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 3c insn=3c00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 3d insn=3d00 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b 3e insn=3e00 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 3f insn=3f00 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 40 insn=4000 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 41 insn=4100 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 42 insn=4200 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 43 insn=4300 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 44 insn=4400 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 45 insn=4500 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 46 insn=4600 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 47 insn=4700 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 48 insn=4800 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 49 insn=4900 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 4a insn=4a00 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 4b insn=4b00 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 4c insn=4c00 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 4d insn=4d00 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 4e insn=4e00 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 4f insn=4f00 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 50 insn=5000 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 51 insn=5100 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 52 insn=5200 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 53 insn=5300 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 54 insn=5400 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 55 insn=5500 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 56 insn=5600 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 57 insn=5700 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 58 insn=5800 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 59 insn=5900 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 5a insn=5a00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 5b insn=5b00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 5c insn=5c00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 5d insn=5d00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 5e insn=5e00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 5f insn=5f00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 60 insn=6000 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 61 insn=6100 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 62 insn=6200 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 63 insn=6300 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 64 insn=6400 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b 65 insn=6500 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 66 insn=6600 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 67 insn=6700 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b 68 insn=6800 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b 69 insn=6900 sig=5 code=2 trap_offset=6 insn_len=2 DEFERRED (#DB shadow)
+1b 6a insn=6a00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 6b insn=6b00 sig=5 code=2 trap_offset=3 insn_len=2 DEFERRED (#DB shadow)
+1b 6c insn=6c00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b 6d insn=6d00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b 6e insn=6e00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b 6f insn=6f00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b 70 insn=7000 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 71 insn=7100 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 72 insn=7200 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 73 insn=7300 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 74 insn=7400 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 75 insn=7500 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 76 insn=7600 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 77 insn=7700 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 78 insn=7800 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 79 insn=7900 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 7a insn=7a00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 7b insn=7b00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 7c insn=7c00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 7d insn=7d00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 7e insn=7e00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 7f insn=7f00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 80 insn=8000 sig=5 code=2 trap_offset=3 insn_len=2 DEFERRED (#DB shadow)
+1b 81 insn=8100 sig=5 code=2 trap_offset=6 insn_len=2 DEFERRED (#DB shadow)
+1b 82 insn=8200 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 83 insn=8300 sig=5 code=2 trap_offset=3 insn_len=2 DEFERRED (#DB shadow)
+1b 84 insn=8400 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 85 insn=8500 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 86 insn=8600 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 87 insn=8700 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 88 insn=8800 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 89 insn=8900 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 8a insn=8a00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 8b insn=8b00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 8c insn=8c00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 8d insn=8d00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 8e insn=8e00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 8f insn=8f00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b 90 insn=9000 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 91 insn=9100 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 92 insn=9200 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 93 insn=9300 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 94 insn=9400 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 95 insn=9500 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 96 insn=9600 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 97 insn=9700 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 98 insn=9800 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 99 insn=9900 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 9a insn=9a00 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b 9b insn=9b00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 9c insn=9c00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 9d insn=9d00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 9e insn=9e00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b 9f insn=9f00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b a0 insn=a000 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b a1 insn=a100 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b a2 insn=a200 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b a3 insn=a300 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b a4 insn=a400 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b a5 insn=a500 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b a6 insn=a600 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b a7 insn=a700 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b a8 insn=a800 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b a9 insn=a900 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b aa insn=aa00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b ab insn=ab00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b ac insn=ac00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b ad insn=ad00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b ae insn=ae00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b af insn=af00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b b0 insn=b000 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b b1 insn=b100 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b b2 insn=b200 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b b3 insn=b300 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b b4 insn=b400 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b b5 insn=b500 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b b6 insn=b600 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b b7 insn=b700 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b b8 insn=b800 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b b9 insn=b900 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b ba insn=ba00 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b bb insn=bb00 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b bc insn=bc00 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b bd insn=bd00 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b be insn=be00 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b bf insn=bf00 sig=5 code=2 trap_offset=5 insn_len=2 DEFERRED (#DB shadow)
+1b c0 insn=c000 sig=5 code=2 trap_offset=3 insn_len=2 DEFERRED (#DB shadow)
+1b c1 insn=c100 sig=5 code=2 trap_offset=3 insn_len=2 DEFERRED (#DB shadow)
+1b c2 insn=c200 sig=5 code=2 trap_offset=-123671244812298 insn_len=2 fault/other
+1b c3 insn=c300 sig=5 code=2 trap_offset=-126966813683722 insn_len=2 fault/other
+1b c4 insn=c400 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b c5 insn=c500 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b c6 insn=c600 sig=5 code=2 trap_offset=3 insn_len=2 DEFERRED (#DB shadow)
+1b c7 insn=c700 sig=5 code=2 trap_offset=6 insn_len=2 DEFERRED (#DB shadow)
+1b c8 insn=c800 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b c9 insn=c900 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b ca insn=ca00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b cb insn=cb00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b cc insn=cc00 sig=5 code=128 trap_offset=1 insn_len=2 fault/other
+1b cd insn=cd00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b ce insn=ce00 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b cf insn=cf00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b d0 insn=d000 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b d1 insn=d100 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b d2 insn=d200 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b d3 insn=d300 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b d4 insn=d400 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b d5 insn=d500 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b d6 insn=d600 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b d7 insn=d700 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b d8 insn=d800 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b d9 insn=d900 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b da insn=da00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b db insn=db00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b dc insn=dc00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b dd insn=dd00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b de insn=de00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b df insn=df00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b e0 insn=e000 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b e1 insn=e100 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b e2 insn=e200 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b e3 insn=e300 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b e4 insn=e400 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b e5 insn=e500 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b e6 insn=e600 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b e7 insn=e700 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b e8 insn=e800 sig=5 code=2 trap_offset=-1869574139 insn_len=2 fault/other
+1b e9 insn=e900 sig=5 code=2 trap_offset=-1869574139 insn_len=2 fault/other
+1b ea insn=ea00 sig=4 code=2 trap_offset=0 insn_len=2 fault/other
+1b eb insn=eb00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b ec insn=ec00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b ed insn=ed00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b ee insn=ee00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b ef insn=ef00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b f0 insn=f000 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b f1 insn=f100 sig=5 code=1 trap_offset=1 insn_len=2 fault/other
+1b f2 insn=f200 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b f3 insn=f300 sig=11 code=1 trap_offset=0 insn_len=2 fault/other
+1b f4 insn=f400 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b f5 insn=f500 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b f6 insn=f600 sig=5 code=2 trap_offset=3 insn_len=2 DEFERRED (#DB shadow)
+1b f7 insn=f700 sig=5 code=2 trap_offset=6 insn_len=2 DEFERRED (#DB shadow)
+1b f8 insn=f800 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b f9 insn=f900 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b fa insn=fa00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b fb insn=fb00 sig=11 code=128 trap_offset=0 insn_len=2 fault/other
+1b fc insn=fc00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b fd insn=fd00 sig=5 code=2 trap_offset=1 insn_len=2 fault/other
+1b fe insn=fe00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+1b ff insn=ff00 sig=5 code=2 trap_offset=2 insn_len=2 normal
+2b 0f00 00 insn=0f0000 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0f00 c0 insn=0f00c0 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0f01 00 insn=0f0100 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0f01 c0 insn=0f01c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f02 00 insn=0f0200 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f02 c0 insn=0f02c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f03 00 insn=0f0300 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f03 c0 insn=0f03c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f04 00 insn=0f0400 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f04 c0 insn=0f04c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f05 00 insn=0f0500 sig=11 code=1 trap_offset=2 insn_len=3 fault/other
+2b 0f05 c0 insn=0f05c0 sig=11 code=1 trap_offset=2 insn_len=3 fault/other
+2b 0f06 00 insn=0f0600 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f06 c0 insn=0f06c0 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f07 00 insn=0f0700 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f07 c0 insn=0f07c0 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f08 00 insn=0f0800 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f08 c0 insn=0f08c0 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f09 00 insn=0f0900 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f09 c0 insn=0f09c0 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f0a 00 insn=0f0a00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f0a c0 insn=0f0ac0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f0b 00 insn=0f0b00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f0b c0 insn=0f0bc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f0c 00 insn=0f0c00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f0c c0 insn=0f0cc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f0d 00 insn=0f0d00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f0d c0 insn=0f0dc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f0e 00 insn=0f0e00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f0e c0 insn=0f0ec0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f0f 00 insn=0f0f00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f0f c0 insn=0f0fc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f10 00 insn=0f1000 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f10 c0 insn=0f10c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f11 00 insn=0f1100 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f11 c0 insn=0f11c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f12 00 insn=0f1200 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f12 c0 insn=0f12c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f13 00 insn=0f1300 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f13 c0 insn=0f13c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f14 00 insn=0f1400 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f14 c0 insn=0f14c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f15 00 insn=0f1500 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f15 c0 insn=0f15c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f16 00 insn=0f1600 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f16 c0 insn=0f16c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f17 00 insn=0f1700 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f17 c0 insn=0f17c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f18 00 insn=0f1800 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f18 c0 insn=0f18c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f19 00 insn=0f1900 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f19 c0 insn=0f19c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f1a 00 insn=0f1a00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f1a c0 insn=0f1ac0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f1b 00 insn=0f1b00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f1b c0 insn=0f1bc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f1c 00 insn=0f1c00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f1c c0 insn=0f1cc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f1d 00 insn=0f1d00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f1d c0 insn=0f1dc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f1e 00 insn=0f1e00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f1e c0 insn=0f1ec0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f1f 00 insn=0f1f00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f1f c0 insn=0f1fc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f20 00 insn=0f2000 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f20 c0 insn=0f20c0 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f21 00 insn=0f2100 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f21 c0 insn=0f21c0 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f22 00 insn=0f2200 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f22 c0 insn=0f22c0 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f23 00 insn=0f2300 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f23 c0 insn=0f23c0 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f24 00 insn=0f2400 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f24 c0 insn=0f24c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f25 00 insn=0f2500 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f25 c0 insn=0f25c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f26 00 insn=0f2600 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f26 c0 insn=0f26c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f27 00 insn=0f2700 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f27 c0 insn=0f27c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f28 00 insn=0f2800 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f28 c0 insn=0f28c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f29 00 insn=0f2900 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f29 c0 insn=0f29c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f2a 00 insn=0f2a00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f2a c0 insn=0f2ac0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f2b 00 insn=0f2b00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f2b c0 insn=0f2bc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f2c 00 insn=0f2c00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f2c c0 insn=0f2cc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f2d 00 insn=0f2d00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f2d c0 insn=0f2dc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f2e 00 insn=0f2e00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f2e c0 insn=0f2ec0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f2f 00 insn=0f2f00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f2f c0 insn=0f2fc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f30 00 insn=0f3000 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f30 c0 insn=0f30c0 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f31 00 insn=0f3100 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0f31 c0 insn=0f31c0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0f32 00 insn=0f3200 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f32 c0 insn=0f32c0 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f33 00 insn=0f3300 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f33 c0 insn=0f33c0 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0f35 00 insn=0f3500 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f35 c0 insn=0f35c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f36 00 insn=0f3600 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f36 c0 insn=0f36c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f37 00 insn=0f3700 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f37 c0 insn=0f37c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f38 00 insn=0f3800 sig=11 code=1 trap_offset=0 insn_len=3 fault/other
+2b 0f38 c0 insn=0f38c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f39 00 insn=0f3900 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f39 c0 insn=0f39c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f3a 00 insn=0f3a00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f3a c0 insn=0f3ac0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f3b 00 insn=0f3b00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f3b c0 insn=0f3bc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f3c 00 insn=0f3c00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f3c c0 insn=0f3cc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f3d 00 insn=0f3d00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f3d c0 insn=0f3dc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f3e 00 insn=0f3e00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f3e c0 insn=0f3ec0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f3f 00 insn=0f3f00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f3f c0 insn=0f3fc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f40 00 insn=0f4000 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f40 c0 insn=0f40c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f41 00 insn=0f4100 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f41 c0 insn=0f41c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f42 00 insn=0f4200 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f42 c0 insn=0f42c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f43 00 insn=0f4300 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f43 c0 insn=0f43c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f44 00 insn=0f4400 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f44 c0 insn=0f44c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f45 00 insn=0f4500 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f45 c0 insn=0f45c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f46 00 insn=0f4600 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f46 c0 insn=0f46c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f47 00 insn=0f4700 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f47 c0 insn=0f47c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f48 00 insn=0f4800 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f48 c0 insn=0f48c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f49 00 insn=0f4900 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f49 c0 insn=0f49c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f4a 00 insn=0f4a00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f4a c0 insn=0f4ac0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f4b 00 insn=0f4b00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f4b c0 insn=0f4bc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f4c 00 insn=0f4c00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f4c c0 insn=0f4cc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f4d 00 insn=0f4d00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f4d c0 insn=0f4dc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f4e 00 insn=0f4e00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f4e c0 insn=0f4ec0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f4f 00 insn=0f4f00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f4f c0 insn=0f4fc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f50 00 insn=0f5000 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f50 c0 insn=0f50c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f51 00 insn=0f5100 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f51 c0 insn=0f51c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f52 00 insn=0f5200 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f52 c0 insn=0f52c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f53 00 insn=0f5300 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f53 c0 insn=0f53c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f54 00 insn=0f5400 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f54 c0 insn=0f54c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f55 00 insn=0f5500 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f55 c0 insn=0f55c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f56 00 insn=0f5600 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f56 c0 insn=0f56c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f57 00 insn=0f5700 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f57 c0 insn=0f57c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f58 00 insn=0f5800 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f58 c0 insn=0f58c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f59 00 insn=0f5900 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f59 c0 insn=0f59c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f5a 00 insn=0f5a00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f5a c0 insn=0f5ac0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f5b 00 insn=0f5b00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f5b c0 insn=0f5bc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f5c 00 insn=0f5c00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f5c c0 insn=0f5cc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f5d 00 insn=0f5d00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f5d c0 insn=0f5dc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f5e 00 insn=0f5e00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f5e c0 insn=0f5ec0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f5f 00 insn=0f5f00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f5f c0 insn=0f5fc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f60 00 insn=0f6000 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f60 c0 insn=0f60c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f61 00 insn=0f6100 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f61 c0 insn=0f61c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f62 00 insn=0f6200 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f62 c0 insn=0f62c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f63 00 insn=0f6300 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f63 c0 insn=0f63c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f64 00 insn=0f6400 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f64 c0 insn=0f64c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f65 00 insn=0f6500 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f65 c0 insn=0f65c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f66 00 insn=0f6600 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f66 c0 insn=0f66c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f67 00 insn=0f6700 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f67 c0 insn=0f67c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f68 00 insn=0f6800 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f68 c0 insn=0f68c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f69 00 insn=0f6900 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f69 c0 insn=0f69c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f6a 00 insn=0f6a00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f6a c0 insn=0f6ac0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f6b 00 insn=0f6b00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f6b c0 insn=0f6bc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f6c 00 insn=0f6c00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f6c c0 insn=0f6cc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f6d 00 insn=0f6d00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f6d c0 insn=0f6dc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f6e 00 insn=0f6e00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f6e c0 insn=0f6ec0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f6f 00 insn=0f6f00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f6f c0 insn=0f6fc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f70 00 insn=0f7000 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0f70 c0 insn=0f70c0 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0f71 00 insn=0f7100 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f71 c0 insn=0f71c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f72 00 insn=0f7200 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f72 c0 insn=0f72c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f73 00 insn=0f7300 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f73 c0 insn=0f73c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f74 00 insn=0f7400 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f74 c0 insn=0f74c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f75 00 insn=0f7500 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f75 c0 insn=0f75c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f76 00 insn=0f7600 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f76 c0 insn=0f76c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f77 00 insn=0f7700 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0f77 c0 insn=0f77c0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0f78 00 insn=0f7800 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f78 c0 insn=0f78c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f79 00 insn=0f7900 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f79 c0 insn=0f79c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f7a 00 insn=0f7a00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f7a c0 insn=0f7ac0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f7b 00 insn=0f7b00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f7b c0 insn=0f7bc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f7c 00 insn=0f7c00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f7c c0 insn=0f7cc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f7d 00 insn=0f7d00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f7d c0 insn=0f7dc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0f7e 00 insn=0f7e00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f7e c0 insn=0f7ec0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f7f 00 insn=0f7f00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f7f c0 insn=0f7fc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f80 00 insn=0f8000 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f80 c0 insn=0f80c0 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f81 00 insn=0f8100 sig=5 code=2 trap_offset=-1869574138 insn_len=3 fault/other
+2b 0f81 c0 insn=0f81c0 sig=5 code=2 trap_offset=-1869573946 insn_len=3 fault/other
+2b 0f82 00 insn=0f8200 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f82 c0 insn=0f82c0 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f83 00 insn=0f8300 sig=5 code=2 trap_offset=-1869574138 insn_len=3 fault/other
+2b 0f83 c0 insn=0f83c0 sig=5 code=2 trap_offset=-1869573946 insn_len=3 fault/other
+2b 0f84 00 insn=0f8400 sig=5 code=2 trap_offset=-1869574138 insn_len=3 fault/other
+2b 0f84 c0 insn=0f84c0 sig=5 code=2 trap_offset=-1869573946 insn_len=3 fault/other
+2b 0f85 00 insn=0f8500 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f85 c0 insn=0f85c0 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f86 00 insn=0f8600 sig=5 code=2 trap_offset=-1869574138 insn_len=3 fault/other
+2b 0f86 c0 insn=0f86c0 sig=5 code=2 trap_offset=-1869573946 insn_len=3 fault/other
+2b 0f87 00 insn=0f8700 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f87 c0 insn=0f87c0 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f88 00 insn=0f8800 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f88 c0 insn=0f88c0 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f89 00 insn=0f8900 sig=5 code=2 trap_offset=-1869574138 insn_len=3 fault/other
+2b 0f89 c0 insn=0f89c0 sig=5 code=2 trap_offset=-1869573946 insn_len=3 fault/other
+2b 0f8a 00 insn=0f8a00 sig=5 code=2 trap_offset=-1869574138 insn_len=3 fault/other
+2b 0f8a c0 insn=0f8ac0 sig=5 code=2 trap_offset=-1869573946 insn_len=3 fault/other
+2b 0f8b 00 insn=0f8b00 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f8b c0 insn=0f8bc0 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f8c 00 insn=0f8c00 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f8c c0 insn=0f8cc0 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f8d 00 insn=0f8d00 sig=5 code=2 trap_offset=-1869574138 insn_len=3 fault/other
+2b 0f8d c0 insn=0f8dc0 sig=5 code=2 trap_offset=-1869573946 insn_len=3 fault/other
+2b 0f8e 00 insn=0f8e00 sig=5 code=2 trap_offset=-1869574138 insn_len=3 fault/other
+2b 0f8e c0 insn=0f8ec0 sig=5 code=2 trap_offset=-1869573946 insn_len=3 fault/other
+2b 0f8f 00 insn=0f8f00 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f8f c0 insn=0f8fc0 sig=5 code=2 trap_offset=6 insn_len=3 DEFERRED (#DB shadow)
+2b 0f90 00 insn=0f9000 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f90 c0 insn=0f90c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f91 00 insn=0f9100 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f91 c0 insn=0f91c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f92 00 insn=0f9200 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f92 c0 insn=0f92c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f93 00 insn=0f9300 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f93 c0 insn=0f93c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f94 00 insn=0f9400 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f94 c0 insn=0f94c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f95 00 insn=0f9500 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f95 c0 insn=0f95c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f96 00 insn=0f9600 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f96 c0 insn=0f96c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f97 00 insn=0f9700 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f97 c0 insn=0f97c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f98 00 insn=0f9800 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f98 c0 insn=0f98c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f99 00 insn=0f9900 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f99 c0 insn=0f99c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f9a 00 insn=0f9a00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f9a c0 insn=0f9ac0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f9b 00 insn=0f9b00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f9b c0 insn=0f9bc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f9c 00 insn=0f9c00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f9c c0 insn=0f9cc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f9d 00 insn=0f9d00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f9d c0 insn=0f9dc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f9e 00 insn=0f9e00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f9e c0 insn=0f9ec0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f9f 00 insn=0f9f00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0f9f c0 insn=0f9fc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fa0 00 insn=0fa000 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fa0 c0 insn=0fa0c0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fa1 00 
+2b 0fa1 c0 
+2b 0fa2 00 insn=0fa200 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fa2 c0 insn=0fa2c0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fa3 00 insn=0fa300 sig=11 code=1 trap_offset=0 insn_len=3 fault/other
+2b 0fa3 c0 insn=0fa3c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fa4 00 insn=0fa400 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0fa4 c0 insn=0fa4c0 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0fa5 00 insn=0fa500 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fa5 c0 insn=0fa5c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fa6 00 insn=0fa600 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fa6 c0 insn=0fa6c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fa7 00 insn=0fa700 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fa7 c0 insn=0fa7c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fa8 00 insn=0fa800 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fa8 c0 insn=0fa8c0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fa9 00 insn=0fa900 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fa9 c0 insn=0fa9c0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0faa 00 insn=0faa00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0faa c0 insn=0faac0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fab 00 insn=0fab00 sig=11 code=1 trap_offset=0 insn_len=3 fault/other
+2b 0fab c0 insn=0fabc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fac 00 insn=0fac00 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0fac c0 insn=0facc0 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0fad 00 insn=0fad00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fad c0 insn=0fadc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fae 00 insn=0fae00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fae c0 insn=0faec0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0faf 00 insn=0faf00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0faf c0 insn=0fafc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fb0 00 insn=0fb000 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fb0 c0 insn=0fb0c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fb1 00 insn=0fb100 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fb1 c0 insn=0fb1c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fb2 00 insn=0fb200 sig=11 code=128 trap_offset=0 insn_len=3 fault/other
+2b 0fb2 c0 insn=0fb2c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fb3 00 insn=0fb300 sig=11 code=1 trap_offset=0 insn_len=3 fault/other
+2b 0fb3 c0 insn=0fb3c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fb4 00 
+2b 0fb4 c0 insn=0fb4c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fb5 00 insn=0fb500 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fb5 c0 insn=0fb5c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fb6 00 insn=0fb600 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fb6 c0 insn=0fb6c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fb7 00 insn=0fb700 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fb7 c0 insn=0fb7c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fb8 00 insn=0fb800 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fb8 c0 insn=0fb8c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fb9 00 insn=0fb900 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fb9 c0 insn=0fb9c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fba 00 insn=0fba00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fba c0 insn=0fbac0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fbb 00 insn=0fbb00 sig=11 code=1 trap_offset=0 insn_len=3 fault/other
+2b 0fbb c0 insn=0fbbc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fbc 00 insn=0fbc00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fbc c0 insn=0fbcc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fbd 00 insn=0fbd00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fbd c0 insn=0fbdc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fbe 00 insn=0fbe00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fbe c0 insn=0fbec0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fbf 00 insn=0fbf00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fbf c0 insn=0fbfc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fc0 00 insn=0fc000 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fc0 c0 insn=0fc0c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fc1 00 insn=0fc100 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fc1 c0 insn=0fc1c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fc2 00 insn=0fc200 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0fc2 c0 insn=0fc2c0 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0fc3 00 insn=0fc300 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fc3 c0 insn=0fc3c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fc4 00 insn=0fc400 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0fc4 c0 insn=0fc4c0 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0fc5 00 insn=0fc500 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fc5 c0 insn=0fc5c0 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0fc6 00 insn=0fc600 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0fc6 c0 insn=0fc6c0 sig=5 code=2 trap_offset=4 insn_len=3 DEFERRED (#DB shadow)
+2b 0fc7 00 insn=0fc700 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fc7 c0 insn=0fc7c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fc8 00 insn=0fc800 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fc8 c0 insn=0fc8c0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fc9 00 insn=0fc900 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fc9 c0 insn=0fc9c0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fca 00 insn=0fca00 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fca c0 insn=0fcac0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fcb 00 insn=0fcb00 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fcb c0 insn=0fcbc0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fcc 00 insn=0fcc00 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fcc c0 insn=0fccc0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fcd 00 insn=0fcd00 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fcd c0 insn=0fcdc0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fce 00 insn=0fce00 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fce c0 insn=0fcec0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fcf 00 insn=0fcf00 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fcf c0 insn=0fcfc0 sig=5 code=2 trap_offset=2 insn_len=3 fault/other
+2b 0fd0 00 insn=0fd000 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fd0 c0 insn=0fd0c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fd1 00 insn=0fd100 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd1 c0 insn=0fd1c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd2 00 insn=0fd200 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd2 c0 insn=0fd2c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd3 00 insn=0fd300 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd3 c0 insn=0fd3c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd4 00 insn=0fd400 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd4 c0 insn=0fd4c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd5 00 insn=0fd500 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd5 c0 insn=0fd5c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd6 00 insn=0fd600 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fd6 c0 insn=0fd6c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fd7 00 insn=0fd700 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fd7 c0 insn=0fd7c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd8 00 insn=0fd800 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd8 c0 insn=0fd8c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd9 00 insn=0fd900 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fd9 c0 insn=0fd9c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fda 00 insn=0fda00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fda c0 insn=0fdac0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fdb 00 insn=0fdb00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fdb c0 insn=0fdbc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fdc 00 insn=0fdc00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fdc c0 insn=0fdcc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fdd 00 insn=0fdd00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fdd c0 insn=0fddc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fde 00 insn=0fde00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fde c0 insn=0fdec0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fdf 00 insn=0fdf00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fdf c0 insn=0fdfc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe0 00 insn=0fe000 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe0 c0 insn=0fe0c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe1 00 insn=0fe100 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe1 c0 insn=0fe1c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe2 00 insn=0fe200 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe2 c0 insn=0fe2c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe3 00 insn=0fe300 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe3 c0 insn=0fe3c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe4 00 insn=0fe400 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe4 c0 insn=0fe4c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe5 00 insn=0fe500 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe5 c0 insn=0fe5c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe6 00 insn=0fe600 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fe6 c0 insn=0fe6c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fe7 00 insn=0fe700 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe7 c0 insn=0fe7c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fe8 00 insn=0fe800 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe8 c0 insn=0fe8c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe9 00 insn=0fe900 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fe9 c0 insn=0fe9c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fea 00 insn=0fea00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fea c0 insn=0feac0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0feb 00 insn=0feb00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0feb c0 insn=0febc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fec 00 insn=0fec00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fec c0 insn=0fecc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fed 00 insn=0fed00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fed c0 insn=0fedc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fee 00 insn=0fee00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fee c0 insn=0feec0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fef 00 insn=0fef00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fef c0 insn=0fefc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff0 00 insn=0ff000 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0ff0 c0 insn=0ff0c0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0ff1 00 insn=0ff100 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff1 c0 insn=0ff1c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff2 00 insn=0ff200 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff2 c0 insn=0ff2c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff3 00 insn=0ff300 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff3 c0 insn=0ff3c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff4 00 insn=0ff400 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff4 c0 insn=0ff4c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff5 00 insn=0ff500 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff5 c0 insn=0ff5c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff6 00 insn=0ff600 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff6 c0 insn=0ff6c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff7 00 insn=0ff700 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0ff7 c0 insn=0ff7c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff8 00 insn=0ff800 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff8 c0 insn=0ff8c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff9 00 insn=0ff900 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ff9 c0 insn=0ff9c0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ffa 00 insn=0ffa00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ffa c0 insn=0ffac0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ffb 00 insn=0ffb00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ffb c0 insn=0ffbc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ffc 00 insn=0ffc00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ffc c0 insn=0ffcc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ffd 00 insn=0ffd00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ffd c0 insn=0ffdc0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ffe 00 insn=0ffe00 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0ffe c0 insn=0ffec0 sig=5 code=2 trap_offset=3 insn_len=3 normal
+2b 0fff 00 insn=0fff00 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
+2b 0fff c0 insn=0fffc0 sig=4 code=2 trap_offset=0 insn_len=3 fault/other
